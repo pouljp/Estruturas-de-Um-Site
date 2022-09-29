@@ -1,70 +1,49 @@
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- O cabeçalho -->
-    <header>
-        <div><img src="https://bit.do/imagen-blend" alt="Logo da Empresa"width="50" ></div>
-        <nav>
-            <ul>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Criar Conta</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- O carrossel de produtos -->
-    <section>
-        <article>
-            <img src="imagem/toonmecom_a123f9.jpg" width="150"   alt="Título do Produto">
-            <h3>Titulo do Produto</h3>
-            <p>Descrição do Produto</p>
-        </article>
-        <article>
-            <img src="imagem/toonmecom_a123f9.jpg" width="150"   alt="Título do Produto">
-            <h3>Titulo do Produto</h3>
-            <p>Descrição do Produto</p>
-        </article>
-    </section>
-    <!-- Os produtos destacados -->
-    <section>
-        <article>
-            <img src="imagem/toonmecom_a123f9.jpg" width="150"   alt="Título do Produto">
-            <h3>Titulo do Produto</h3>
-            <p>Descrição do Produto</p>
-            <a href="#">ver mais</a>
-        </article> Produto 2 </article>
-        </article> Produto 3 </article>
-    </section>
-    <!-- O Rodapé da Pagina -->
-    <footer> 
-        <div><img src="imagem/toonmecom_a123f9.jpg" width="150" alt="Logo da Empresa"></div>
-        <section>
-            <h2>Produtos</h2>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </section>
-        <section> <!--Conteúdo de "Serviços"--></section>
-        <section> <!--Conteúdo de "Sobre"--></section>
-       <section> <!--Conteúdo de "Redes Sociais"--></section>
- 
-    </footer>
+    <title>HEADR | GN</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    
-</body>
+    <div class="header" id="header">
+        <button class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+
+        </button>
+        <div class="logo_header">
+            <img src="https://bit.do/imagen-blend" class="img_logo_empresa" alt="Logo da Empresa" >
+        </div>
+        <div class="nagivation_header" id="navigation_header">
+            <button class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="#" class="active">Produtos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Criar Conta</a>    
+
+        </div>
+    </div>
+    <div class="content" id="content">
+        <h1>Menu Responsivo</h1>
+    </div>
+ </body>
+ <script>
+    var header = document.getElementById('header');
+    var navigation_header = document.getElementById('navigationHeader')
+    var content = document.getElementById('content');
+    var showSidenar = false;
+ </script>
 </html>
-
-
 
 
 
